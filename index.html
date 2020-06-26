@@ -4,51 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Burger Bar</title>
+    <link rel="stylesheet" href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/style2.css">
 </head>
 
 <body>
-    <ul>
-        <li>
-            <a href="/index.html">Home</a>
-        </li>
-        <li>
-            <a href="Pages/products.html">Products</a>
-        </li>
-        <li>
-            <a href="Pages/orders.html">Orders</a>
-        </li>
-        <li>
-            <a href="Pages/about.html">About</a>
-        </li>
-    </ul>
-    <h1>Fantastic Burger</h1>
-    <ul>
-        <li>Meat lover</li>
-        <ul>
-            <li>Beaf</li>
-            <li>Pork</li>
-            <li>Turkey</li>
-        </ul>
-        <li>Vegetarian</li>
-        <li>Piedone</li>
-    </ul>
-    <h2>Step of order</h2>
-    <ol>
-        <li> Choose a Burger</li>
-        <li>Buy it</li>
-        <li>Give your adress</li>
-        <li>Eat it!</li>
-    </ol>
-    <h2>Adition</h2>
-    <ol>
-        <li>Tomato </li>
-        <li>Apple</li>
-        <li>Pepper</li>
-        <li>Hot chili pepper</li>
-    </ol>
-    <img src="https://www.nosalty.hu/files/imagecache/fb-ns-og-image/recept_kepek/hamburger-jamie-olivertol.jpg"
-        alt="Burger Yammie">
-</body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="/index.html" class="btn btn-lg" role="button">Home</a>
+            </div>
+            <div class="col-sm-3">
+                <a href="/Pages/products.html" class="btn btn-lg active" role="button">Products</a>
+            </div>
+            <div class="col-sm-3">
+                <a href="/Pages/orders.html" class="btn btn-lg active" role="button">Orders</a>
+            </div>
+            <div class="col-sm-3">
+                <a href="/Pages/about.html" class="btn btn-lg active" role="button">About</a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="barName" style="text-shadow:0px 0px 10px black">Fantastic Burger Bar</h1>
+
+
+    <body>
+
+        <div class="container-lg">
+
+            <div class="card-columns card-deck">
+                <div class="card bg-warning">
+                    <div class="card-body ">
+                        <h2>Vegan Mushrooms<span class="badge badge-secondary">New</span></h2>
+                        <p class="card-text">Some text inside the first card</p>
+                        <img class="card-img-bottom" src="Pictures/Vegan Mushroom.jfif" alt="Card image 1">
+                    </div>
+                </div>
+                <div class="card bg-warning">
+                    <div class="card-body">
+                        <h2> Burger & Chips <span class="badge badge-secondary text-right"> Action </span></h2>
+                        <p class="card-text">Some text inside the second card</p>
+                        <img class="card-img-bottom" src="Pictures/hambi3.jpg" alt="Card image 2">
+                    </div>
+                </div>
+                <div class="card bg-warning">
+                    <div class="card-body">
+                        <h2> Eat with your Friend! <span class="badge badge-secondary text-right" style="pos"> Action
+                            </span></h2>
+                        <p class="card-text">Some text inside the third card</p>
+                        <img class="card-img-bottom" src="Pictures/hambi1.jpg" alt="Card image 3">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 openB">
+                    <h2 style="margin: 15px;">Opening hours:</h2>
+
+                    <table class="table table-borderless text-center " style="background-color: #fadc84;">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Days</th>
+                                <th>Open</th>
+                                <th>Close</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday-Friday</td>
+                                <td>6:00</td>
+                                <td rowspan="2"><br>20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Saturnday</td>
+                                <td>10:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td colspan="2">Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-1">
+                    
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-fluid" width="100%" hight="100%" src="Pictures/A_bar.jfif" alt="the bar">
+                </div>
+            </div>
+        </div>
+    </body>
 
 </html>

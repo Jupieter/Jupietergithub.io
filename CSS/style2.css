@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+@font-face{
+    Dancing
+}
+
+body{
+    background-color:#ffd400;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.container{}
+
+.btn-lg {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: #ffee00;
+    background-color: #881000;
+    border-color: #ee0000;
+    width: 100%;
+    margin: 20px;
+    
+}
+.btn-lg:hover {
+    color: #ffffff;
+    background-color: #c21700;
+    border-color: #eeeeee;
+    width: 100%;
+}
+.btn-sm {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color: #c21700;
+    background-color: #ffc107;
+    border: solid 1px #ee8700;
+    width: 100%;
+    margin: 20px;
+    
+}
+.btn-sm:hover {
+    color: #ffffff;
+    background-color: #881000;
+    border-color: #eeeeee;
+    width: 100%;
+}
+.barName {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: 881000;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    margin: 40px;
+    
+}
+img{
+    height:200px;
+    position: right;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    margin: 1%;
+}
+.openB {
+    margin: 15px;
+    background-color: #ffc107; 
+    border: solid 1px rgba(0,0,0,.125); 
+    border-radius: 0.25rem; 
+}   
+
+.TabProd{
+    margin: 15px;
+    background-color: #ffc107; 
+    border: solid 1px rgba(0,0,0,.125); 
+    border-radius: 0.25rem; 
+}       
+}h2{
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.adrs{
+    background-color: #ffc107; 
+    border: solid 1px rgba(0,0,0,.125); 
+    border-radius: 0.25rem; 
+    padding: 5px;
+    box-shadow: 3px 3px 10px black;
+    min-width: 200px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.right {
+    float: right;
+    text-align: center;
+    width: 60px;
+    padding: 10px;
+  }
+  .right:hover {
+    float: right;
+    text-align: center;
+    width: 60px;
+    padding: 10px;
+  }
+  .center{
+    width: 150px;
+}
+.input-group-btn{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color: #c21700;
+    background-color: #ffc107;
+    border: solid 1px #ee8700;
+    width: 40px;
+    vertical-align: middle;
+    margin: 0px 2px 0 2px;
+    
+}
+.input-group-btn:hover {
+    color: #ffffff;
+    background-color: #881000;
+    border-color: #eeeeee;
+}
+.input-number{
+    margin: 1px;
+}
