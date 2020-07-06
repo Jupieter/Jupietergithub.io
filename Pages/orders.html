@@ -7,9 +7,73 @@
     <title>Orders</title>
     <link rel="stylesheet" href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/CSS/style2.css">
+
 </head>
 
 <body>
+    <div class="container">
+        <div class="jumbotron widget">
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2> Időjárás</h2>
+                </div>
+                <div class="col-sm">
+                    <p id="testing1"></p>
+                </div>
+                <div class="col-sm-3">
+                    <h2 id="temperature" style="text-align: right;">NoN</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <select class="form-control" id="day" onclick="radioB()">
+                        <option value=0>Monday </option>
+                        <option value=1>Tuesday </option>
+                        <option value=2>Wednesday </option>
+                        <option value=3>Thursday </option>
+                        <option value=4>Friday </option>
+                        <option value=5>Saturday </option>
+                        <option value=6>Sunday </option>
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input onclick=radioB()  id="radioC" type="radio" class="form-check-input" name="optradio" value="0" checked>Celsius
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input id="radioF" type="radio" class="form-check-input" name="optradio" onclick=radioB() value="1">Fahrenheit
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <h3 id="offers" style="text-align: right;">offer</h3>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="widgeP">minimum: </p>
+                    <h4 id="minim" style="text-align: left;">minim</h4>
+                </div>
+                <div class="col-sm-4">
+                    <p class="widgeP" style="text-align: center;">average: </p>
+                    <h4 id="average" style="text-align: center;">average</h4>
+                </div>
+                <div class="col-sm-4">
+                    <p class="widgeP" style="text-align: right;">maximum: </p>
+                    <h4 id="maxim" style="text-align: right;">maxim</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
@@ -26,9 +90,11 @@
             </div>
         </div>
     </div>
+
     <h1 class="barName" style="text-shadow:0px 0px 10px black">Fantastic Burger Bar</h1>
     <h2 style="text-align: center;">Orders</h2>
     <br>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-2">
@@ -45,7 +111,7 @@
                 <img class="img-fluid" src="/Pictures/ordershez.jfif" alt="burger yammie">
             </div>
             <div class="col-sm-1"> </div>
-            <div class="col-sm-3">
+            <div class="col-sm">
                 <h2>Login</h2>
                 <form action="/action_page.php">
                     <div class="form-group">
@@ -68,6 +134,8 @@
 
 
     </div>
+
+    <script src="/js/wheater.js"></script>
 </body>
 
 </html>
