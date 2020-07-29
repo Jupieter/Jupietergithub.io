@@ -1,4 +1,4 @@
-var serverUrl = "http://localhost:3000/foods"
+var serverUrl = "http://jupieter.github.io/db/burger.json/foods"
 // Keys of users
 let keys = [ "id",
 "active", 
